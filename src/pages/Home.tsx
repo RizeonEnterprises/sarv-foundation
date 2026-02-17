@@ -46,7 +46,7 @@ const Home = () => {
                         {/* Card 3 */}
                         <div className="text-center p-8 border border-gray-100 rounded-lg shadow-sm hover:-translate-y-2 transition-transform duration-300">
                             <FaUtensils className="text-5xl text-gold-accent mx-auto mb-4" />
-                            <h3 className="font-heading font-bold text-2xl text-dark-brown mb-2">Serve Saanjh</h3>
+                            <h3 className="font-heading font-bold text-2xl text-dark-brown mb-2">Sarv Saanjh</h3>
                             <p className="text-gray-600">Community kitchen & food drives.</p>
                         </div>
                     </div>
