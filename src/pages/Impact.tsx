@@ -8,7 +8,6 @@ const galleryImages = [
     '/assets/1552279651742 - Copy.jpg',
     '/assets/1552279478729.jpg',
     '/assets/1547727656317.jpg',
-    '/assets/FB_IMG_1583815239968.jpg',
     '/assets/FB_IMG_1579545923480.jpg',
     '/assets/FB_IMG_1580443822070.jpg',
     '/assets/DSC_7081.JPG',
