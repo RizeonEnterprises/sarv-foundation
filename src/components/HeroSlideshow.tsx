@@ -6,7 +6,10 @@ const slides = [
     '/assets/FB_IMG_1583815239968.jpg',
     '/assets/FB_IMG_1580443822070.jpg',
     '/assets/image_fc1e115a-1fc8-44fc-af3e-80932b33172320220706_114518.jpg',
-    '/assets/FB_IMG_1581576737122.jpg'
+    '/assets/FB_IMG_1581576737122.jpg',
+    '/assets/image4.jpeg',
+    '/assets/image5.jpeg',
+    '/assets/image6.jpeg'
 ];
 
 const HeroSlideshow = () => {
