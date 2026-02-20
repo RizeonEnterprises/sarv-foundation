@@ -73,11 +73,11 @@ const Navbar = () => {
                             onMouseEnter={() => setIsInitiativesDropdownOpen(true)}
                             onMouseLeave={() => setIsInitiativesDropdownOpen(false)}>
                             <button className="flex items-center gap-1 font-bold text-sm uppercase px-1 py-2 hover:text-gold-accent bg-transparent border-none cursor-pointer">
-                                INITIATIVES <FaCaretDown />
+                            <Link to="/initiatives" className="flex items-center gap-1 font-bold text-sm uppercase px-1 py-2 hover:text-gold-accent bg-transparent border-none cursor-pointer decoration-none text-gray-800">
+                            INITIATIVES <FaCaretDown /></Link>
                             </button>
                             {isInitiativesDropdownOpen && (
                                 <div className="absolute top-full left-0 bg-white min-w-[180px] shadow-lg border-t-2 border-gold-accent flex flex-col z-50">
-                                    <Link to="/initiatives" className="px-5 py-3 text-sm border-b border-gray-100 hover:bg-gray-50 text-dark-brown">ALL INITIATIVES</Link>
                                     <Link to="/sakhi-saheli" className="px-5 py-3 text-sm border-b border-gray-100 hover:bg-gray-50 text-dark-brown">SAKHI SAHELI</Link>
                                 </div>
                             )}
