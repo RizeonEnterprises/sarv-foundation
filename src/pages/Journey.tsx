@@ -7,7 +7,7 @@ const Journey = () => {
             <PageHero
                 title="Our Journey"
                 subtitle="A Legacy of Grassroots Change"
-                backgroundImage="/assets/journey_.webp"
+                backgroundImage="/assets/journey.webp"
             />
 
             <section className="py-[80px] relative">
