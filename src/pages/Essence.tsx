@@ -59,7 +59,7 @@ const Essence = () => {
                         <div className="grid grid-cols-2 gap-4">
                              <div className="group relative overflow-hidden rounded-2xl shadow-lg">
                                 <img 
-                                    src="/assets/img.png" 
+                                    src="/assets/image6.jpeg" 
                                     alt="Sarv Essence 3" 
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
                                 />
