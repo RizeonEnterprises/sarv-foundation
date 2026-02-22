@@ -8,7 +8,7 @@ const JoinUs = () => {
             <PageHero
                 title="Join Our Movement"
                 subtitle="Be the change you wish to see."
-                backgroundImage="/assets/sakhi saheli flyer.jpeg"
+                backgroundImage="/assets/img 1.png"
             />
 
             <section className="py-[80px] bg-soft-beige">
