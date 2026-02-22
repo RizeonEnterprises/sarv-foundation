@@ -33,11 +33,45 @@ const Essence = () => {
                         </blockquote>
                     </div>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                        <img src="/assets/DSC_7257.JPG" alt="Sarv Essence 1" className="rounded-lg shadow-md transform md:translate-y-4 w-full h-auto object-cover" />
-                        <img src="/assets/DSC_7565.JPG" alt="Sarv Essence 2" className="rounded-lg shadow-md w-full h-auto object-cover" />
-                        <img src="/assets/img.png" alt="Sarv Essence 3" className="rounded-lg shadow-md transform md:-translate-y-4 w-full h-auto object-cover" />
-                        <img src="/assets/DSC_7081.JPG" alt="Sarv Essence 4" className="rounded-lg shadow-md w-full h-auto object-cover" />
+                    {/* Image Grid with Hover Effects */}
+                    <div className="grid grid-cols-2 gap-4 h-[500px]">
+                        {/* Image 1 - Tall */}
+                        <div className="group relative overflow-hidden rounded-2xl shadow-lg row-span-2">
+                            <img 
+                                src="/assets/DSC_7257.JPG" 
+                                alt="Sarv Essence 1" 
+                                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                            />
+                            <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        </div>
+
+                        {/* Image 2 */}
+                        <div className="group relative overflow-hidden rounded-2xl shadow-lg">
+                            <img 
+                                src="/assets/DSC_7565.JPG" 
+                                alt="Sarv Essence 2" 
+                                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                            />
+                            <div className="absolute inset-0 bg-black/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                        </div>
+
+                        {/* Image 3 & 4 Container */}
+                        <div className="grid grid-cols-2 gap-4">
+                             <div className="group relative overflow-hidden rounded-2xl shadow-lg">
+                                <img 
+                                    src="/assets/img.png" 
+                                    alt="Sarv Essence 3" 
+                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                                />
+                            </div>
+                            <div className="group relative overflow-hidden rounded-2xl shadow-lg">
+                                <img 
+                                    src="/assets/DSC_7081.JPG" 
+                                    alt="Sarv Essence 4" 
+                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
+                                />
+                            </div>
+                        </div>
                     </div>
 
                 </div>
