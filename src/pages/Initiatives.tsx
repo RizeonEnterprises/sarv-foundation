@@ -1,8 +1,56 @@
 import PageHero from '../components/PageHero';
-import { FaGraduationCap, FaFemale, FaUtensils, FaHandsHelping, FaTree, FaHeartbeat } from 'react-icons/fa';
+import { 
+    FaFemale, FaUtensils, FaHandsHelping, 
+    FaTree, FaHeartbeat, FaBookReader, FaPowerOff 
+} from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Initiatives = () => {
+    const initiativesData = [
+        {
+            id: "sakhi-saheli",
+            title: "Sakhi Saheli",
+            icon: <FaFemale className="text-5xl text-gold-accent mb-4" />,
+            description: "Creating safe spaces for women to share, heal, and grow. A community circle for emotional and social empowerment."
+        },
+        {
+            id: "sarv-shiksha",
+            title: "Sarv Shiksha",
+            icon: <FaBookReader className="text-5xl text-gold-accent mb-4" />,
+            description: "Empowering every child through the gift of education. We provide scholarships, learning materials, and after-school support."
+        },
+        {
+            id: "saksham-shakti",
+            title: "Saksham Shakti",
+            icon: <FaPowerOff className="text-5xl text-gold-accent mb-4" />,
+            description: "Skill development and vocational training programs designed to make women financially independent and self-reliant."
+        },
+        {
+            id: "serve-saanjh",
+            title: "Sarv Saanjh",
+            icon: <FaUtensils className="text-5xl text-gold-accent mb-4" />,
+            description: "Community kitchen initiatives providing nutritious meals to the homeless and needy in urban slums."
+        },
+        {
+            id: "sarv-sahayata",
+            title: "Sarv Sahayata",
+            icon: <FaHandsHelping className="text-5xl text-gold-accent mb-4" />,
+            description: "Emergency relief and rehabilitation support during natural calamities and crises."
+        },
+        {
+            id: "sarv-vatika",
+            title: "Sarv Vatika",
+            icon: <FaTree className="text-5xl text-gold-accent mb-4" />,
+            description: "Environmental drives, tree plantations, and promoting sustainable living practices properly."
+        },
+        {
+            id: "sarv-swasthya",
+            title: "Sarv Swasthya",
+            icon: <FaHeartbeat className="text-5xl text-gold-accent mb-4" />,
+            description: "Organizing health camps, eye checkups, and hygiene awareness workshops for women and children."
+        }
+    ];
+
     return (
         <>
             <PageHero
@@ -19,61 +67,21 @@ const Initiatives = () => {
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {/* Sakhi Saheli - Featured */}
-                        <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100 flex flex-col items-center text-center hover:-translate-y-2 transition-transform duration-300">
-                            <FaFemale className="text-5xl text-gold-accent mb-4" />
-                            <h3 className="font-heading font-bold text-2xl text-dark-brown mb-2">Sakhi Saheli</h3>
-                            <p className="text-gray-600 mb-6 flex-grow">
-                                Creating safe spaces for women to share, heal, and grow. A community circle for emotional and social empowerment.
-                            </p>
-                            <Link to="/sakhi-saheli" className="px-6 py-2 border border-gold-accent text-primary-brown rounded-full font-bold text-sm uppercase hover:bg-gold-accent hover:text-white transition-colors">
-                                Learn More
-                            </Link>
-                        </div>
-
-                        {/* Sarv Shikha */}
-                        <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100 flex flex-col items-center text-center hover:-translate-y-2 transition-transform duration-300">
-                            <FaGraduationCap className="text-5xl text-gold-accent mb-4" />
-                            <h3 className="font-heading font-bold text-2xl text-dark-brown mb-2">Sarv Shikha</h3>
-                            <p className="text-gray-600 mb-6 flex-grow">
-                                Ensuring no girl child is left behind. Sponsoring education fees, books, and uniforms for underprivileged girls.
-                            </p>
-                        </div>
-
-                        {/* Serve Saanjh */}
-                        <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100 flex flex-col items-center text-center hover:-translate-y-2 transition-transform duration-300">
-                            <FaUtensils className="text-5xl text-gold-accent mb-4" />
-                            <h3 className="font-heading font-bold text-2xl text-dark-brown mb-2">Serve Saanjh</h3>
-                            <p className="text-gray-600 mb-6 flex-grow">
-                                Community kitchen initiatives providing nutritious meals to the homeless and needy in urban slums.
-                            </p>
-                        </div>
-
-                        {/* Additional Initiatives */}
-                        <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100 flex flex-col items-center text-center hover:-translate-y-2 transition-transform duration-300">
-                            <FaHandsHelping className="text-5xl text-gold-accent mb-4" />
-                            <h3 className="font-heading font-bold text-2xl text-dark-brown mb-2">Sarv Sahayata</h3>
-                            <p className="text-gray-600 mb-6 flex-grow">
-                                Emergency relief and rehabilitation support during natural calamities and crises.
-                            </p>
-                        </div>
-
-                        <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100 flex flex-col items-center text-center hover:-translate-y-2 transition-transform duration-300">
-                            <FaTree className="text-5xl text-gold-accent mb-4" />
-                            <h3 className="font-heading font-bold text-2xl text-dark-brown mb-2">Sarv Vatika</h3>
-                            <p className="text-gray-600 mb-6 flex-grow">
-                                Environmental drives, tree plantations, and promoting sustainable living practices properly.
-                            </p>
-                        </div>
-
-                        <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100 flex flex-col items-center text-center hover:-translate-y-2 transition-transform duration-300">
-                            <FaHeartbeat className="text-5xl text-gold-accent mb-4" />
-                            <h3 className="font-heading font-bold text-2xl text-dark-brown mb-2">Sarv Swasthya</h3>
-                            <p className="text-gray-600 mb-6 flex-grow">
-                                Organizing health camps, eye checkups, and hygiene awareness workshops for women and children.
-                            </p>
-                        </div>
-
+                        {initiativesData.map((item) => (
+                            <div key={item.id} className="bg-white p-8 rounded-xl shadow-lg border border-gray-100 flex flex-col items-center text-center hover:-translate-y-2 transition-transform duration-300">
+                                {item.icon}
+                                <h3 className="font-heading font-bold text-2xl text-dark-brown mb-2">{item.title}</h3>
+                                <p className="text-gray-600 mb-6 flex-grow">
+                                    {item.description}
+                                </p>
+                                <Link 
+                                    to={`/initiative/${item.id}`} 
+                                    className="px-6 py-2 border border-gold-accent text-primary-brown rounded-full font-bold text-sm uppercase hover:bg-gold-accent hover:text-white transition-colors"
+                                >
+                                    Learn More
+                                </Link>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>
