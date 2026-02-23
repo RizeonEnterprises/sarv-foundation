@@ -13,6 +13,12 @@ import Vision from './pages/Vision';
 import Mission from './pages/Mission';
 import Values from './pages/Values';
 import About from './pages/About';
+import SarvShiksha from './pages/SarvShiksha';
+import SakshamShakti from './pages/SakshamShakti';
+import SarvSaanjh from './pages/SarvSaanjh';
+import Sarvsahayata from './pages/Sarvsahayata';
+import SarvVatika from './pages/SarvVatika';
+import SarvSwasthya from './pages/SarvSwasthya';
 
 function App() {
   return (
@@ -32,6 +38,12 @@ function App() {
           <Route path="/mission" element={<Mission />} />
           <Route path="/values" element={<Values />} />
           <Route path="/about" element={<About />} />
+          <Route path="/SarvShiksha" element={<SarvShiksha />} />
+          <Route path="/SakshamShakti" element={<SakshamShakti />} />
+          <Route path="/SarvSaanjh" element={<SarvSaanjh />} />
+          <Route path="/Sarvsahayata" element={<Sarvsahayata />} />
+          <Route path="/SarvVatika" element={<SarvVatika />} />
+          <Route path="/SarvSwasthya" element={<SarvSwasthya />} />
           <Route path="*" element={<div className="text-center p-20">Page Not Found</div>} />
         </Route>
       </Routes>
