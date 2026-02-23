@@ -79,6 +79,12 @@ const Navbar = () => {
                             {isInitiativesDropdownOpen && (
                                 <div className="absolute top-full left-0 bg-white min-w-[180px] shadow-lg border-t-2 border-gold-accent flex flex-col z-50">
                                     <Link to="/sakhi-saheli" className="px-5 py-3 text-sm border-b border-gray-100 hover:bg-gray-50 text-dark-brown">SAKHI SAHELI</Link>
+                                    <Link to="/SarvShiksha" className="px-5 py-3 text-sm border-b border-gray-100 hover:bg-gray-50 text-dark-brown">SARV SHIKSHA</Link>
+                                    <Link to="/SakshamShakti" className="px-5 py-3 text-sm border-b border-gray-100 hover:bg-gray-50 text-dark-brown">SAKSHAM SHAKTI SAHELI</Link>
+                                    <Link to="/SarvSaanjh" className="px-5 py-3 text-sm border-b border-gray-100 hover:bg-gray-50 text-dark-brown">SARV SAANJH</Link>
+                                    <Link to="/Sarvsahayata" className="px-5 py-3 text-sm border-b border-gray-100 hover:bg-gray-50 text-dark-brown">SARV SAHAYATA</Link>
+                                    <Link to="/SarvVatika" className="px-5 py-3 text-sm border-b border-gray-100 hover:bg-gray-50 text-dark-brown">SARV VATIKA</Link>
+                                    <Link to="/SarvSwasthya" className="px-5 py-3 text-sm border-b border-gray-100 hover:bg-gray-50 text-dark-brown">SARV SWASTHYA</Link>
                                 </div>
                             )}
                         </div>
