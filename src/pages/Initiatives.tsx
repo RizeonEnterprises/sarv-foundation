@@ -14,37 +14,37 @@ const Initiatives = () => {
             description: "Creating safe spaces for women to share, heal, and grow. A community circle for emotional and social empowerment."
         },
         {
-            id: "sarv-shiksha",
+            id: "SarvShiksha",
             title: "Sarv Shiksha",
             icon: <FaBookReader className="text-5xl text-gold-accent mb-4" />,
             description: "Empowering every child through the gift of education. We provide scholarships, learning materials, and after-school support."
         },
         {
-            id: "saksham-shakti",
+            id: "SakshamShakti",
             title: "Saksham Shakti",
             icon: <FaPowerOff className="text-5xl text-gold-accent mb-4" />,
             description: "Skill development and vocational training programs designed to make women financially independent and self-reliant."
         },
         {
-            id: "serve-saanjh",
+            id: "SarvSaanjh",
             title: "Sarv Saanjh",
             icon: <FaUtensils className="text-5xl text-gold-accent mb-4" />,
             description: "Community kitchen initiatives providing nutritious meals to the homeless and needy in urban slums."
         },
         {
-            id: "sarv-sahayata",
+            id: "Sarvsahayata",
             title: "Sarv Sahayata",
             icon: <FaHandsHelping className="text-5xl text-gold-accent mb-4" />,
             description: "Emergency relief and rehabilitation support during natural calamities and crises."
         },
         {
-            id: "sarv-vatika",
+            id: "SarvVatika",
             title: "Sarv Vatika",
             icon: <FaTree className="text-5xl text-gold-accent mb-4" />,
             description: "Environmental drives, tree plantations, and promoting sustainable living practices properly."
         },
         {
-            id: "sarv-swasthya",
+            id: "SarvSwasthya",
             title: "Sarv Swasthya",
             icon: <FaHeartbeat className="text-5xl text-gold-accent mb-4" />,
             description: "Organizing health camps, eye checkups, and hygiene awareness workshops for women and children."
