@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Initiatives = () => {
     const initiativesData = [
         {
-            id: "sakhi-saheli",
+            id: "SakhiSaheli",
             title: "Sakhi Saheli",
             icon: <FaFemale className="text-5xl text-gold-accent mb-4" />,
             description: "Creating safe spaces for women to share, heal, and grow. A community circle for emotional and social empowerment."
