@@ -6,7 +6,8 @@ import {
 import { Link } from 'react-router-dom';
 
 const Initiatives = () => {
-   
+    const initiativesData = [
+        {
             id: "sakhi-saheli",
             title: "Sakhi Saheli",
             icon: <FaFemale className="text-5xl text-gold-accent mb-4" />,
