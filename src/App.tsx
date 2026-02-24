@@ -44,6 +44,13 @@ function App() {
           <Route path="/Sarvsahayata" element={<Sarvsahayata />} />
           <Route path="/SarvVatika" element={<SarvVatika />} />
           <Route path="/SarvSwasthya" element={<SarvSwasthya />} />
+          <Route path="/initiative/sakhi-saheli" element={<SakhiSaheli />} />
+          <Route path="/initiative/Sarv-Shiksha" element={<SarvShiksha />} />
+          <Route path="/initiative/Saksham-Shakti" element={<SakshamShakti />} />
+          <Route path="/initiative/Sarv-Saanjh" element={<SarvSaanjh />} />
+          <Route path="/initiative/Sarv-sahayata" element={<Sarvsahayata />} />
+          <Route path="/initiative/Sarv-Vatika" element={<SarvVatika />} />
+          <Route path="/initiative/Sarv-Swasthya" element={<SarvSwasthya />} />
           <Route path="*" element={<div className="text-center p-20">Page Not Found</div>} />
         </Route>
       </Routes>
