@@ -8,43 +8,43 @@ import { Link } from 'react-router-dom';
 const Initiatives = () => {
     const initiativesData = [
         {
-            id: "SakhiSaheli",
+            id: "Sakhi-Saheli",
             title: "Sakhi Saheli",
             icon: <FaFemale className="text-5xl text-gold-accent mb-4" />,
             description: "Creating safe spaces for women to share, heal, and grow. A community circle for emotional and social empowerment."
         },
         {
-            id: "SarvShiksha",
+            id: "Sarv-Shiksha",
             title: "Sarv Shiksha",
             icon: <FaBookReader className="text-5xl text-gold-accent mb-4" />,
             description: "Empowering every child through the gift of education. We provide scholarships, learning materials, and after-school support."
         },
         {
-            id: "SakshamShakti",
+            id: "Saksham-Shakti",
             title: "Saksham Shakti",
             icon: <FaPowerOff className="text-5xl text-gold-accent mb-4" />,
             description: "Skill development and vocational training programs designed to make women financially independent and self-reliant."
         },
         {
-            id: "SarvSaanjh",
+            id: "Sarv-Saanjh",
             title: "Sarv Saanjh",
             icon: <FaUtensils className="text-5xl text-gold-accent mb-4" />,
             description: "Community kitchen initiatives providing nutritious meals to the homeless and needy in urban slums."
         },
         {
-            id: "Sarvsahayata",
+            id: "Sarv-sahayata",
             title: "Sarv Sahayata",
             icon: <FaHandsHelping className="text-5xl text-gold-accent mb-4" />,
             description: "Emergency relief and rehabilitation support during natural calamities and crises."
         },
         {
-            id: "SarvVatika",
+            id: "Sarv-Vatika",
             title: "Sarv Vatika",
             icon: <FaTree className="text-5xl text-gold-accent mb-4" />,
             description: "Environmental drives, tree plantations, and promoting sustainable living practices properly."
         },
         {
-            id: "SarvSwasthya",
+            id: "Sarv-Swasthya",
             title: "Sarv Swasthya",
             icon: <FaHeartbeat className="text-5xl text-gold-accent mb-4" />,
             description: "Organizing health camps, eye checkups, and hygiene awareness workshops for women and children."
