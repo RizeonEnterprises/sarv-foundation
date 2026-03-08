@@ -24,7 +24,7 @@ const SarvShiksha = () => {
                         <div className="relative">
                             <div className="absolute top-0 left-0 w-full h-full bg-gold-accent rounded-lg transform translate-x-4 translate-y-4"></div>
                             <img 
-                                src="/assets/FB_IMG_1580443822070.jpg" 
+                                src="/assets/SARV Shiksha.png" 
                                 alt="Children's Education" 
                                 className="relative z-10 rounded-lg shadow-xl w-full h-[400px] object-cover"
                             />
@@ -55,5 +55,6 @@ const SarvShiksha = () => {
         </>
     );
 };
+
 
 export default SarvShiksha;
