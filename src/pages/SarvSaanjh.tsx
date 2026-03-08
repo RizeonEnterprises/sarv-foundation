@@ -6,7 +6,7 @@ const SarvSaanjh = () => {
             <PageHero
                 title="Sarv Saanjh"
                 subtitle="Community kitchen initiatives for the needy."
-                backgroundImage="/assets/hero-Sarv-saanjh.jpg" 
+                backgroundImage="/assets/DSC_7495.JPG" 
             />
 
             <section className="py-[80px] bg-white">
@@ -24,7 +24,7 @@ const SarvSaanjh = () => {
                         <div className="relative">
                             <div className="absolute top-0 left-0 w-full h-full bg-gold-accent rounded-lg transform translate-x-4 translate-y-4"></div>
                             <img 
-                                src="/assets/community-kitchen.jpg" 
+                                src="/assets/DSC_7495.JPG" 
                                 alt="Community Kitchen" 
                                 className="relative z-10 rounded-lg shadow-xl w-full h-[400px] object-cover"
                             />
@@ -55,5 +55,6 @@ const SarvSaanjh = () => {
         </>
     );
 };
+
 
 export default SarvSaanjh;
