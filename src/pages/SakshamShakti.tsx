@@ -26,7 +26,7 @@ const SakshamShakti = () => {
                             <img 
                                 src="/assets/Saksham Shakti.png" 
                                 alt="Vocational Training" 
-                                className="relative z-10 rounded-lg shadow-xl w-full h-[400px] object-cover"
+                                className="relative z-10 rounded-lg shadow-xl w-full object-cover"
                             />
                         </div>
                     </div>
@@ -58,4 +58,5 @@ const SakshamShakti = () => {
 
 
 export default SakshamShakti;
+
 
