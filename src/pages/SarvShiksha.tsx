@@ -26,7 +26,7 @@ const SarvShiksha = () => {
                             <img 
                                 src="/assets/SARV Shiksha.png" 
                                 alt="Children's Education" 
-                                className="relative z-10 rounded-lg shadow-xl w-full h-[400px] object-cover"
+                                className="relative z-10 rounded-lg shadow-xl w-full object-cover"
                             />
                         </div>
                     </div>
@@ -58,3 +58,4 @@ const SarvShiksha = () => {
 
 
 export default SarvShiksha;
+
