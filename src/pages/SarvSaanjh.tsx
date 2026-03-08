@@ -24,7 +24,7 @@ const SarvSaanjh = () => {
                         <div className="relative">
                             <div className="absolute top-0 left-0 w-full h-full bg-gold-accent rounded-lg transform translate-x-4 translate-y-4"></div>
                             <img 
-                                src="/assets/DSC_7495.JPG" 
+                                src="/assets/SARV Saanjh.png" 
                                 alt="Community Kitchen" 
                                 className="relative z-10 rounded-lg shadow-xl w-full h-[400px] object-cover"
                             />
@@ -58,3 +58,4 @@ const SarvSaanjh = () => {
 
 
 export default SarvSaanjh;
+
