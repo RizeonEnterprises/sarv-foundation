@@ -24,7 +24,7 @@ const SakhiSaheli = () => {
                         </div>
                         <div className="relative">
                             <div className="absolute top-0 left-0 w-full h-full bg-gold-accent rounded-lg transform translate-x-4 translate-y-4"></div>
-                            <img src="/assets/image_fc1e115a-1fc8-44fc-af3e-80932b33172320220706_114518.jpg" alt="Sakhi Saheli Session" className="relative rounded-lg shadow-xl w-full" />
+                            <img src="/assets/Sakhi Saheli.png" alt="Sakhi Saheli Session" className="relative rounded-lg shadow-xl w-full" />
                         </div>
                     </div>
                 </div>
