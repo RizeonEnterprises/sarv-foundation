@@ -26,7 +26,7 @@ const SarvSaanjh = () => {
                             <img 
                                 src="/assets/SARV Saanjh.png" 
                                 alt="Community Kitchen" 
-                                className="relative z-10 rounded-lg shadow-xl w-full h-[400px] object-cover"
+                                className="relative z-10 rounded-lg shadow-xl w-full object-cover"
                             />
                         </div>
                     </div>
@@ -58,4 +58,5 @@ const SarvSaanjh = () => {
 
 
 export default SarvSaanjh;
+
 
