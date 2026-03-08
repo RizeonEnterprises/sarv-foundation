@@ -6,7 +6,7 @@ const SarvSwasthya = () => {
             <PageHero
                 title="Sarv Swasthya"
                 subtitle="Health camps and hygiene awareness."
-                backgroundImage="/assets/hero-sarv-swasthya.jpg" 
+                backgroundImage="/assets/FB_IMG_1579545923480.jpg" 
             />
 
             <section className="py-[80px] bg-white">
@@ -24,7 +24,7 @@ const SarvSwasthya = () => {
                         <div className="relative">
                             <div className="absolute top-0 left-0 w-full h-full bg-gold-accent rounded-lg transform translate-x-4 translate-y-4"></div>
                             <img 
-                                src="/assets/health-camp.jpg" 
+                                src="/assets/FB_IMG_1579545923480.jpg" 
                                 alt="Health Camp" 
                                 className="relative z-10 rounded-lg shadow-xl w-full h-[400px] object-cover"
                             />
@@ -55,5 +55,6 @@ const SarvSwasthya = () => {
         </>
     );
 };
+
 
 export default SarvSwasthya;
