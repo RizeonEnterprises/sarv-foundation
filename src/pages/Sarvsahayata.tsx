@@ -26,7 +26,7 @@ const SarvSahayata = () => {
                             <img 
                                 src="/assets/img 1.png" 
                                 alt="Emergency Relief Work" 
-                                className="relative z-10 rounded-lg shadow-xl w-full h-[400px] object-cover"
+                                className="relative z-10 rounded-lg shadow-xl w-full object-cover"
                             />
                         </div>
                     </div>
@@ -58,3 +58,4 @@ const SarvSahayata = () => {
 
 
 export default SarvSahayata;
+
