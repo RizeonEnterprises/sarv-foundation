@@ -6,7 +6,7 @@ const SarvVatika = () => {
             <PageHero
                 title="Sarv Vatika"
                 subtitle="Environmental drives and sustainable living."
-                backgroundImage="/assets/hero-sarv-vatika.jpg" 
+                backgroundImage="/assets/image_bb95c8e6-6c02-4a73-b0d4-37d6fb2ece4920230507_115747.jpg" 
             />
 
             <section className="py-[80px] bg-white">
@@ -24,7 +24,7 @@ const SarvVatika = () => {
                         <div className="relative">
                             <div className="absolute top-0 left-0 w-full h-full bg-gold-accent rounded-lg transform translate-x-4 translate-y-4"></div>
                             <img 
-                                src="/assets/plantation-drive.jpg" 
+                                src="/assets/image_8610a138-fd7b-4be5-a168-97c7c00fd34d20230507_115740.jpg" 
                                 alt="Tree Plantation" 
                                 className="relative z-10 rounded-lg shadow-xl w-full h-[400px] object-cover"
                             />
@@ -55,5 +55,6 @@ const SarvVatika = () => {
         </>
     );
 };
+
 
 export default SarvVatika;
