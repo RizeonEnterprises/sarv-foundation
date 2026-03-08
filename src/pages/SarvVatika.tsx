@@ -24,7 +24,7 @@ const SarvVatika = () => {
                         <div className="relative">
                             <div className="absolute top-0 left-0 w-full h-full bg-gold-accent rounded-lg transform translate-x-4 translate-y-4"></div>
                             <img 
-                                src="/assets/image_8610a138-fd7b-4be5-a168-97c7c00fd34d20230507_115740.jpg" 
+                                src="/assets/SARV Vatika.png" 
                                 alt="Tree Plantation" 
                                 className="relative z-10 rounded-lg shadow-xl w-full h-[400px] object-cover"
                             />
@@ -58,3 +58,4 @@ const SarvVatika = () => {
 
 
 export default SarvVatika;
+
