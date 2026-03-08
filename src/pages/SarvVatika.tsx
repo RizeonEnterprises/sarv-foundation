@@ -26,7 +26,7 @@ const SarvVatika = () => {
                             <img 
                                 src="/assets/SARV Vatika.png" 
                                 alt="Tree Plantation" 
-                                className="relative z-10 rounded-lg shadow-xl w-full h-[400px] object-cover"
+                                className="relative z-10 rounded-lg shadow-xl w-full h-[500px] object-cover"
                             />
                         </div>
                     </div>
@@ -58,4 +58,5 @@ const SarvVatika = () => {
 
 
 export default SarvVatika;
+
 
