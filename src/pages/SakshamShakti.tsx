@@ -24,7 +24,7 @@ const SakshamShakti = () => {
                         <div className="relative">
                             <div className="absolute top-0 left-0 w-full h-full bg-gold-accent rounded-lg transform translate-x-4 translate-y-4"></div>
                             <img 
-                                src="/assets/DSC_7364 - Copy.JPG" 
+                                src="/assets/Saksham Shakti.png" 
                                 alt="Vocational Training" 
                                 className="relative z-10 rounded-lg shadow-xl w-full h-[400px] object-cover"
                             />
@@ -58,3 +58,4 @@ const SakshamShakti = () => {
 
 
 export default SakshamShakti;
+
