@@ -24,7 +24,7 @@ const SarvSwasthya = () => {
                         <div className="relative">
                             <div className="absolute top-0 left-0 w-full h-full bg-gold-accent rounded-lg transform translate-x-4 translate-y-4"></div>
                             <img 
-                                src="/assets/FB_IMG_1579545923480.jpg" 
+                                src="/assets/SARV Swasthya.png" 
                                 alt="Health Camp" 
                                 className="relative z-10 rounded-lg shadow-xl w-full h-[400px] object-cover"
                             />
@@ -58,3 +58,4 @@ const SarvSwasthya = () => {
 
 
 export default SarvSwasthya;
+
