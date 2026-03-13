@@ -11,9 +11,7 @@ const slides = [
     '/assets/image5.jpeg',
     '/assets/image_fc1e115a-1fc8-44fc-af3e-80932b33172320220706_114518.jpg',
     '/assets/image6.jpeg',
-    '/assets/image7.jpeg',
-    '/assets/image8.jpeg',
-    '/assets/image4.jpeg'
+    '/assets/image8.jpeg'
 ];
 
 function HeroSlideshow() {
