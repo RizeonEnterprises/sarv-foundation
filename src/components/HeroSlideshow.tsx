@@ -4,6 +4,7 @@ import classNames from 'classnames';
 
 const slides = [
     '/assets/image9.jpeg',
+    '/assets/home_page_slide_0.webp',
     '/assets/FB_IMG_1580443822070.jpg',
     '/assets/image5.jpeg',
     '/assets/image_fc1e115a-1fc8-44fc-af3e-80932b33172320220706_114518.jpg',
