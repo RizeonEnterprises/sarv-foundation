@@ -1,4 +1,3 @@
-
 interface PageHeroProps {
     title: string;
     subtitle?: string;
@@ -8,7 +7,8 @@ interface PageHeroProps {
 const PageHero = ({ title, subtitle, backgroundImage }: PageHeroProps) => {
     return (
         <section
-            className="relative h-[50vh] sm:h-[60vh] md:h-[70vh] flex items-center justify-center bg-cover bg-center bg-no-repeat"
+            // YAHAN CHANGE KIYA HAI: bg-cover ki jagah bg-contain kar diya gaya hai
+            className="relative h-[50vh] sm:h-[60vh] md:h-[70vh] flex items-center justify-center bg-contain bg-center bg-no-repeat"
             style={{ backgroundImage: `url('${backgroundImage}')` }}
         >
             <div className="absolute inset-0 bg-gradient-to-b from-[#3e2723]/70 to-[#3e2723]/50 z-10"></div>
