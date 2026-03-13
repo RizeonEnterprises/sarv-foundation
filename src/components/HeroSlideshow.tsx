@@ -26,21 +26,22 @@ function HeroSlideshow() {
     }, []);
 
     return (
-        <header className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] xl:h-[800px] overflow-hidden flex items-center justify-center bg-dark-brown text-white">
+        <header className="relative w-full h-[60vh] md:h-[80vh] overflow-hidden flex items-center justify-center bg-dark-brown text-white">
             
             {/* Slides */}
             {slides.map((slide, index) => (
                 <div
                     key={index}
                     className={classNames(
-                        "absolute top-0 left-0 w-full h-full bg-cover bg-center transition-opacity duration-1000",
+                        // YAHAN CHANGE KIYA HAI: bg-cover ko bg-contain bg-no-repeat mein badla gaya hai
+                        "absolute top-0 left-0 w-full h-full bg-contain bg-no-repeat bg-center transition-opacity duration-1000",
                         { "opacity-100 animate-[zoomEffect_20s_infinite_linear]": index === currentSlide, "opacity-0": index !== currentSlide }
                     )}
                     style={{ backgroundImage: `url('${slide}')` }} />
             ))}
 
             {/* Overlay */}
-            <div className="absolute top-0 left-0 w-full h-full bg-primary-brown/60 z-10"></div>
+            <div className="absolute top-0 left-0 w-full h-full bg-primary-brown/80 z-10"></div>
 
             {/* Content */}
             <div className="container mx-auto px-4 z-20 text-center relative">
