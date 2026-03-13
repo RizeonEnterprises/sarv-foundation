@@ -13,7 +13,7 @@ const slides = [
     '/assets/image4.jpeg'
 ];
 
-const HeroSlideshow = () => {
+function HeroSlideshow() {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     useEffect(() => {
@@ -25,7 +25,8 @@ const HeroSlideshow = () => {
     }, []);
 
     return (
-        <header className="relative h-[50vh] sm:h-[70vh] md:h-[85vh] overflow-hidden flex items-center justify-center bg-dark-brown text-white">
+        <header className="relative w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] xl:h-[800px] overflow-hidden flex items-center justify-center bg-dark-brown text-white">
+            
             {/* Slides */}
             {slides.map((slide, index) => (
                 <div
@@ -34,8 +35,7 @@ const HeroSlideshow = () => {
                         "absolute top-0 left-0 w-full h-full bg-cover bg-center transition-opacity duration-1000",
                         { "opacity-100 animate-[zoomEffect_20s_infinite_linear]": index === currentSlide, "opacity-0": index !== currentSlide }
                     )}
-                    style={{ backgroundImage: `url('${slide}')` }}
-                />
+                    style={{ backgroundImage: `url('${slide}')` }} />
             ))}
 
             {/* Overlay */}
@@ -59,10 +59,8 @@ const HeroSlideshow = () => {
                     </Link>
                 </div>
             </div>
-
-            {/* CSS Animation defined in global or config */}
         </header>
     );
-};
+}
 
 export default HeroSlideshow;
