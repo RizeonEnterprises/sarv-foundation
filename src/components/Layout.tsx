@@ -6,7 +6,8 @@ const Layout = () => {
     const location = useLocation();
 
     return (
-        <div className="min-h-screen flex flex-col font-body text-primary-brown bg-soft-beige">
+        /* bg-[#fdfdfd] ensures white theme and text-slate-700 gives professional look */
+        <div className="min-h-screen flex flex-col font-body text-slate-700 bg-[#fdfdfd]">
             <Navbar />
             <main className="flex-grow">
                 <div key={location.pathname} className="animate-fadeIn">
