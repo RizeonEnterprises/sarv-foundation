@@ -7,7 +7,7 @@ const About = () => {
             <PageHero
                 title="About Sarv"
                 subtitle="One World | One Heart"
-                backgroundImage="/assets/FB_IMG_1579864171733.jpg"
+                backgroundImage="/assets/2006-SARV-Img-21.webp"
             />
 
             <section className="py-[80px] bg-soft-beige">
