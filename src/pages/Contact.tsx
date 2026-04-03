@@ -7,12 +7,12 @@ const Contact = () => {
             <PageHero
                 title="Contact SARV Foundation"
                 subtitle="For Partnerships, Volunteer & CSR Queries"
-                backgroundImage="/assets/FB_IMG_1583815239968.jpg" // Using a fallback image for now or the one from HTML
+                backgroundImage="/assets/2026-SARV-contact.webp" // Using a fallback image for now or the one from HTML
             />
 
             <section className="py-[60px] relative min-h-screen flex items-center justify-center">
                 {/* Background Blur */}
-                <div className="absolute top-0 left-0 w-full h-full bg-[url('/assets/FB_IMG_1583815239968.jpg')] bg-cover bg-center opacity-15 blur-sm z-0"></div>
+                <div className="absolute top-0 left-0 w-full h-full bg-[url('/assets/2026-SARV-contact.webp')] bg-cover bg-center opacity-15 blur-sm z-0"></div>
 
                 <div className="container mx-auto px-4 relative z-10">
                     <div className="text-center mb-16">
