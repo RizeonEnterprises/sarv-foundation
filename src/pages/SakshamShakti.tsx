@@ -6,7 +6,7 @@ const SakshamShakti = () => {
             <PageHero
                 title="Saksham Shakti"
                 subtitle="Skill development for financial independence."
-                backgroundImage="/assets/DSC_7364 - Copy.JPG" 
+                backgroundImage="/assets/2025-SARV-I-03.webp" 
             />
 
             <section className="py-[80px] bg-white">
@@ -24,7 +24,7 @@ const SakshamShakti = () => {
                         <div className="relative">
                             <div className="absolute top-0 left-0 w-full h-full bg-gold-accent rounded-lg transform translate-x-4 translate-y-4"></div>
                             <img 
-                                src="/assets/Saksham Shakti.png" 
+                                src="/assets/2006-SARV-Img-61.png" 
                                 alt="Vocational Training" 
                                 className="relative z-10 rounded-lg shadow-xl w-full object-cover"
                             />

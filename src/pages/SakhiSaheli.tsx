@@ -7,7 +7,7 @@ const SakhiSaheli = () => {
             <PageHero
                 title="Sakhi Saheli"
                 subtitle="A Circle of Trust. A Journey of Self."
-                backgroundImage="/assets/FB_IMG_1583815239968.jpg"
+                backgroundImage="/assets/2025-SARV-I-02.webp"
             />
 
             <section className="py-[80px] bg-white">
@@ -24,7 +24,7 @@ const SakhiSaheli = () => {
                         </div>
                         <div className="relative">
                             <div className="absolute top-0 left-0 w-full h-full bg-gold-accent rounded-lg transform translate-x-4 translate-y-4"></div>
-                            <img src="/assets/Sakhi Saheli.png" alt="Sakhi Saheli Session" className="relative rounded-lg shadow-xl w-full" />
+                            <img src="/assets/2006-SARV-Img-60.png" alt="Sakhi Saheli Session" className="relative rounded-lg shadow-xl w-full" />
                         </div>
                     </div>
                 </div>

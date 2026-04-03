@@ -7,7 +7,7 @@ const Values = () => {
             <PageHero
                 title="Our Core Values"
                 subtitle="The Principles That Guide Us"
-                backgroundImage="/assets/values.JPG"
+                backgroundImage="/assets/2006-SARV-Img-39.webp"
             />
 
             <section className="py-[80px] bg-soft-beige">

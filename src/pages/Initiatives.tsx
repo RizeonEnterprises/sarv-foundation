@@ -56,7 +56,7 @@ const Initiatives = () => {
             <PageHero
                 title="Our Initiatives"
                 subtitle="Small steps. Big Impact."
-                backgroundImage="/assets/FB_IMG_1580443822070.jpg"
+                backgroundImage="/assets/SARV-in.webp"
             />
 
             <section className="py-[80px]">

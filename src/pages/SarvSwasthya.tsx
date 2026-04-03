@@ -6,7 +6,7 @@ const SarvSwasthya = () => {
             <PageHero
                 title="Sarv Swasthya"
                 subtitle="Health camps and hygiene awareness."
-                backgroundImage="/assets/FB_IMG_1579545923480.jpg" 
+                backgroundImage="/assets/2025-SARV-I-06.webp" 
             />
 
             <section className="py-[80px] bg-white">
@@ -24,7 +24,7 @@ const SarvSwasthya = () => {
                         <div className="relative">
                             <div className="absolute top-0 left-0 w-full h-full bg-gold-accent rounded-lg transform translate-x-4 translate-y-4"></div>
                             <img 
-                                src="/assets/SARV Swasthya.png" 
+                                src="/assets/2006-SARV-Img-65.png" 
                                 alt="Health Camp" 
                                 className="relative z-10 rounded-lg shadow-xl w-full object-cover"
                             />

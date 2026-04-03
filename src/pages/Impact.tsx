@@ -3,23 +3,55 @@ import PageHero from '../components/PageHero';
 import { FaTimes } from 'react-icons/fa';
 
 const galleryImages = [
-    '/assets/image_7956e10f-fd3d-4494-bdec-4e8af0c79f7a20230507_115656.jpg',
-    '/assets/image_fc1e115a-1fc8-44fc-af3e-80932b33172320220706_114518.jpg',
-    '/assets/1552279651742 - Copy.jpg',
-    '/assets/1552279478729.jpg',
-    '/assets/1547727656317.jpg',
-    '/assets/image1.jpeg',
-    '/assets/FB_IMG_1583815239968.jpg',
-    '/assets/FB_IMG_1579545923480.jpg',
-    '/assets/FB_IMG_1580443822070.jpg',
-    '/assets/DSC_7081.JPG',
-    '/assets/image2.jpeg',
-    '/assets/Deepa mallik.JPG',
-    '/assets/DSC_7084.JPG',
-    '/assets/DSC_7846.JPG',
-    '/assets/image3.jpeg',
-    '/assets/image4.jpeg',
-    '/assets/image5.jpeg'
+    '/assets/2006-SARV-Img-40.webp',
+    '/assets/2006-SARV-Img-03.webp',
+    '/assets/2006-SARV-Img-05.webp',
+    '/assets/2006-SARV-Img-06.webp',
+    '/assets/2006-SARV-Img-07.webp',
+    '/assets/2006-SARV-Img-08.webp',
+    '/assets/2006-SARV-Img-09.webp',
+    '/assets/2006-SARV-Img-12.webp',
+    '/assets/2006-SARV-Img-11.webp',
+    '/assets/2006-SARV-Img-13.webp',
+    '/assets/2006-SARV-Img-14.webp',
+    '/assets/2006-SARV-Img-15.webp',
+    '/assets/2006-SARV-Img-16.webp',
+    '/assets/2006-SARV-Img-17.webp',
+    '/assets/2006-SARV-Img-18.webp',
+    '/assets/2006-SARV-Img-19.webp',
+    '/assets/2006-SARV-Img-20.webp',
+    '/assets/2006-SARV-Img-21.webp',
+    '/assets/2006-SARV-Img-22.webp',
+    '/assets/2006-SARV-Img-24.webp',
+    '/assets/2006-SARV-Img-26.webp',
+    '/assets/2006-SARV-Img-27.webp',
+    '/assets/2006-SARV-Img-28.webp',
+    '/assets/2006-SARV-Img-30.webp',
+    '/assets/2006-SARV-Img-31.webp',
+    '/assets/2006-SARV-Img-32.webp',
+    '/assets/2006-SARV-Img-33.webp',
+    '/assets/2006-SARV-Img-34.webp',
+    '/assets/2006-SARV-Img-35.webp',
+    '/assets/2006-SARV-Img-36.webp',
+    '/assets/2006-SARV-Img-37.webp',
+    '/assets/2006-SARV-Img-38.webp',
+    '/assets/2006-SARV-Img-39.webp',
+    '/assets/2006-SARV-Img-41.webp',
+    '/assets/2006-SARV-Img-42.webp',
+    '/assets/2006-SARV-Img-43.webp',
+    '/assets/2006-SARV-Img-44.webp',
+    '/assets/2006-SARV-Img-45.webp',
+    '/assets/2006-SARV-Img-46.webp',
+    '/assets/2006-SARV-Img-51.webp',
+    '/assets/2006-SARV-Img-53.webp',
+    '/assets/2006-SARV-Img-54.webp',
+    '/assets/2006-SARV-Img-56.webp',
+    '/assets/2006-SARV-Img-57.webp',
+    '/assets/2006-SARV-Img-58.webp',
+    '/assets/2006-SARV-Img-59.webp',
+    '/assets/2006-SARV-Img-67.webp',
+    '/assets/2006-SARV-Img-01.webp',
+    '/assets/2006-SARV-Img-02.webp'
 ];
 
 const Impact = () => {
@@ -41,7 +73,7 @@ const Impact = () => {
             <PageHero
                 title="Impact in Motion"
                 subtitle="Small steps. Big Impact."
-                backgroundImage="/assets/1552279651742 - Copy.jpg"
+                backgroundImage="/assets/2006-SARV-Img-12.webp"
             />
 
             <section className="py-[80px] bg-soft-beige">

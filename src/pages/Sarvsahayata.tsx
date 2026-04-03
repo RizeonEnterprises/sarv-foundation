@@ -6,7 +6,7 @@ const SarvSahayata = () => {
             <PageHero
                 title="Sarv Sahayata"
                 subtitle="Emergency relief and rehabilitation support."
-                backgroundImage="/assets/image_d4b5e8cf-c655-4db2-a81d-dca7a2ea04d720230507_115558.jpg" 
+                backgroundImage="/assets/2025-SARV-I-04.webp" 
             />
 
             <section className="py-[80px] bg-white">
@@ -24,7 +24,7 @@ const SarvSahayata = () => {
                         <div className="relative">
                             <div className="absolute top-0 left-0 w-full h-full bg-gold-accent rounded-lg transform translate-x-4 translate-y-4"></div>
                             <img 
-                                src="/assets/img 1.png" 
+                                src="/assets/2025-SARV-I-04.webp" 
                                 alt="Emergency Relief Work" 
                                 className="relative z-10 rounded-lg shadow-xl w-full object-cover"
                             />

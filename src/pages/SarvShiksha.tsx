@@ -6,7 +6,7 @@ const SarvShiksha = () => {
             <PageHero
                 title="Sarv Shiksha"
                 subtitle="Empowering every child through the gift of education."
-                backgroundImage="/assets/FB_IMG_1580443822070.jpg" 
+                backgroundImage="/assets/2025-SARV-I-05.webp" 
             />
 
             <section className="py-[80px] bg-white">
@@ -24,7 +24,7 @@ const SarvShiksha = () => {
                         <div className="relative">
                             <div className="absolute top-0 left-0 w-full h-full bg-gold-accent rounded-lg transform translate-x-4 translate-y-4"></div>
                             <img 
-                                src="/assets/SARV Shiksha.png" 
+                                src="/assets/2006-SARV-Img-64.png" 
                                 alt="Children's Education" 
                                 className="relative z-10 rounded-lg shadow-xl w-full object-cover"
                             />

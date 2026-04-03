@@ -7,7 +7,7 @@ const Essence = () => {
             <PageHero
                 title="Our Essence"
                 subtitle="The Heart of Sarv"
-                backgroundImage="/assets/essence img.webp"
+                backgroundImage="/assets/2006-SARV-Img-17.webp"
             />
 
             <section className="py-[80px] bg-soft-beige">
@@ -38,7 +38,7 @@ const Essence = () => {
                         {/* Image 1 - Tall */}
                         <div className="group relative overflow-hidden rounded-2xl shadow-lg row-span-2">
                             <img 
-                                src="/assets/DSC_7257.JPG" 
+                                src="/assets/2006-SARV-Img-10.webp"
                                 alt="Sarv Essence 1" 
                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
                             />
@@ -48,7 +48,7 @@ const Essence = () => {
                         {/* Image 2 */}
                         <div className="group relative overflow-hidden rounded-2xl shadow-lg">
                             <img 
-                                src="/assets/DSC_7565.JPG" 
+                                src="/assets/2006-SARV-Img-16.webp" 
                                 alt="Sarv Essence 2" 
                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
                             />
@@ -59,14 +59,14 @@ const Essence = () => {
                         <div className="grid grid-cols-2 gap-4">
                              <div className="group relative overflow-hidden rounded-2xl shadow-lg">
                                 <img 
-                                    src="/assets/image6.jpeg" 
+                                    src="/assets/2006-SARV-Img-08.webp" 
                                     alt="Sarv Essence 3" 
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
                                 />
                             </div>
                             <div className="group relative overflow-hidden rounded-2xl shadow-lg">
                                 <img 
-                                    src="/assets/DSC_7081.JPG" 
+                                    src="/assets/2006-SARV-Img-37.webp" 
                                     alt="Sarv Essence 4" 
                                     className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" 
                                 />

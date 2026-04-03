@@ -7,7 +7,7 @@ const Vision = () => {
             <PageHero
                 title="Our Vision"
                 subtitle="Every Dream Matters."
-                backgroundImage="/assets/vision.jpg"
+                backgroundImage="/assets/2006-SARV-Img-22.webp"
             />
 
             <section className="py-[100px] bg-soft-beige">
