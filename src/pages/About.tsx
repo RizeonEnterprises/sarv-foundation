@@ -94,15 +94,7 @@ const About = () => {
                             </ul>
                         </div>
 
-                        <div className="bg-white p-8 rounded-lg shadow-sm">
-                            <h3 className="font-bold text-xl text-primary-brown border-b border-gray-100 pb-2 mb-4">Project Details</h3>
-                            <ul className="space-y-3 leading-relaxed text-gray-600">
-                                <li><strong>Location:</strong> Faridabad (Delhi NCR)</li>
-                                <li><strong>Beneficiaries:</strong> Women & Children</li>
-                                <li><strong>Coverage:</strong> 100 Families</li>
-                                <li><strong>Mode:</strong> Dry Ration Distribution</li>
-                            </ul>
-                        </div>
+                        
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
