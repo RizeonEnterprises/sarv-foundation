@@ -8,7 +8,6 @@ const slides = [
   '/assets/2006-SARV-Img-34.webp',
   '/assets/2006-SARV-Img-10.webp',
   '/assets/2006-SARV-Img-14.webp',
-  '/assets/2006-SARV-Img-18.webp',
   '/assets/2006-SARV-Img-33.webp',
   '/assets/2006-SARV-Img-45.webp',
   '/assets/2006-SARV-Img-37.webp',
