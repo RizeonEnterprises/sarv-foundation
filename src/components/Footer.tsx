@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaLinkedinIn, FaInstagram, FaFacebookF, FaEnvelope, FaPhoneAlt, FaShieldAlt } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
