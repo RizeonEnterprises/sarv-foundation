@@ -22,7 +22,7 @@ const Footer = () => {
                             <a href="#" className="w-9 h-9 rounded-full bg-[#f38b27] text-white flex items-center justify-center hover:bg-white hover:text-[#1a365d] transition-all duration-300 shadow-md">
                                 <FaLinkedinIn className="text-xs" />
                             </a>
-                            <a href="#" className="w-9 h-9 rounded-full bg-[#f38b27] text-white flex items-center justify-center hover:bg-white hover:text-[#1a365d] transition-all duration-300 shadow-md">
+                            <a href="https://www.instagram.com/teamsarv/" className="w-9 h-9 rounded-full bg-[#f38b27] text-white flex items-center justify-center hover:bg-white hover:text-[#1a365d] transition-all duration-300 shadow-md">
                                 <FaInstagram className="text-xs" />
                             </a>
                             <a href="#" className="w-9 h-9 rounded-full bg-[#f38b27] text-white flex items-center justify-center hover:bg-white hover:text-[#1a365d] transition-all duration-300 shadow-md">
